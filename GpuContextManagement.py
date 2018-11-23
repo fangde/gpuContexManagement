@@ -53,7 +53,7 @@ if __name__=="__main__":
     
     sum=x+y
 
-    for i in range(5):
+    for i in range(32):
         data=np.zeros(shape=(128,128,32),dtype=np.float32)
         hash=PutImage(data)
 
